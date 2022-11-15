@@ -97,3 +97,6 @@ footer ul li{
      color: #754747;
     margin: 60;
 }
+a:link{
+  text-decoration:none;
+}
