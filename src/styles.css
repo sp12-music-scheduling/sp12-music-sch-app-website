@@ -28,10 +28,27 @@ li {
 }
 @media screen and (max-width: 480px){
     li{
-        font-size: 1rem;
+        font-size: 20px ;
     }
     #logo{
         width: 80%;
+    }
+    .small-screen-footer{
+    grid-template-rows:  1fr auto;
+    }
+     .small-screen-footer li{
+    padding: 10px;
+    font-size: 16px;
+    }
+    #poster{
+    width: 90%;
+}
+    #navbar{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .video_dim{
+       
     }
 }
 nav ul li{
@@ -73,7 +90,7 @@ header {
   margin: 0 40px;
 }
 .three-column-section{
-    display: grid;
+   display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-left: 20px;
 }
@@ -90,7 +107,7 @@ header {
 footer ul{
   display: flex;
   flex-direction: column;
-  justify-content:  space-between;
+  justify-content: space-between;
     
   color: black;
 }
@@ -107,8 +124,17 @@ footer ul li{
 #pp_title{
      text-align: center;
      color: #754747;
-    margin: 60;
+     margin: 60;
 }
 a:link{
   text-decoration:none;
+} 
+.video{
+display:flex;
+justify-content: space-around;
+padding-right: 40px;
+}
+.video_dim{
+    width: 90%;
+    height: 50vw; 
 }
